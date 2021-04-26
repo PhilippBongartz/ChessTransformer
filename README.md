@@ -8,6 +8,7 @@ chess_transformer_utils.py is code for the data generator that is used to train 
 The code accomodates both the current python-chess version as well as the older version on Colab. 
 
 Chesstransformer.ipynb is the Colab notebook that can be used with the above code to train a model to predict chess moves.
+https://colab.research.google.com/drive/1QBDbHNbB_Gm7ZNYOQYiVTANoZ4QNdNBQ?usp=sharing
 It requires you to have a pgn chess database on you Google drive. In this notebook 82 tokens are put into the model. 
 70 encode the board position (64 squares + metainformation available in FEN), 10 encode the last moves, 2 encode elo. 
 If you want to input only the board position the number of tokens and the size of the embeddings can be reduced accordingly.
